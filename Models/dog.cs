@@ -1,4 +1,4 @@
-namespace test2.Models
+namespace DogApi.Models
 {
     public class Dog
     {
