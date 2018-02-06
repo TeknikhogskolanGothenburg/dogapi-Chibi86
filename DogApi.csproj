@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
     <AssemblyName>DogApi</AssemblyName>
   </PropertyGroup>
@@ -22,13 +22,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Update="DogFiles - Copy\Labrador.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="DogFiles - Copy\Riesenschnauzer.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Update="DogFiles\Bulldog.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Update="DogFiles\Bulldog2.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Update="DogFiles\Labrador.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="DogFiles\Test.json">
+    <Content Update="DogFiles\Riesenschnauzer.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
